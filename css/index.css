@@ -45,11 +45,56 @@ header nav a:hover {
 #middleTop h2 {
   margin: 0 auto;
   font-size: 2rem;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 #middleTop p {
   width: 60%;
   margin: 0 auto;
-  padding-bottom: 30px;
+  padding-bottom: 3%;
+}
+#middleTop img {
+  width: 90%;
+  margin: 0 auto;
+  height: 400px;
+}
+#whyText {
+  width: 100%;
+  display: flex;
+}
+#whyText h2 {
+  margin: 0 auto;
+  padding: 4%;
+}
+#why {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+#why div {
+  width: 33%;
+  border: 1px solid black;
+}
+#why .fast {
+  width: 25%;
+  margin: 0 auto;
+}
+#why .fast h3 {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+#why .fast img {
+  margin-left: 37%;
+  padding: 2%;
+}
+#why .fast p {
+  width: 75%;
+  margin: 0 auto;
+}
+#why .easy {
+  width: 25%;
+  margin: 0 auto;
 }

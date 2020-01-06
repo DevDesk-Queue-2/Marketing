@@ -1,7 +1,55 @@
-#header {
-  width: 100%;
-  background-color: red;
+@import : mixins.less;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  font-family: 'quicksandregular', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
-#header nav a {
+header {
+  width: 100%;
+  margin: 0.25%;
+  padding: 30px;
+}
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+header nav a {
+  display: flex;
+  font-size: 1.4rem;
   text-decoration: none;
+  color: #BB1333;
+}
+header nav a:hover {
+  cursor: pointer;
+  color: #383651;
+  opacity: 40%;
+}
+#topSec {
+  display: flex;
+  justify-content: center;
+}
+#topSec img {
+  width: 90%;
+  height: 500px;
+}
+#middleTop {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 100%;
+  justify-content: center;
+}
+#middleTop h2 {
+  margin: 0 auto;
+  font-size: 2rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#middleTop p {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 30px;
 }

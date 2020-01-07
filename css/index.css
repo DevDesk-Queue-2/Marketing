@@ -18,9 +18,10 @@
   font-style: normal;
 }
 header {
+  height: 200px;
   width: 100%;
   margin: 0.25%;
-  padding: 30px;
+  padding: 15px;
 }
 header nav {
   display: flex;
@@ -144,8 +145,7 @@ header nav a:hover {
 }
 #logonav {
   width: 100%;
-  margin: 0.25%;
-  padding: 30px;
+  padding: 10px;
 }
 #logonav nav {
   display: flex;
@@ -250,4 +250,9 @@ header nav a:hover {
   border-radius: 50%;
   margin: 0 auto;
   display: flex;
+}
+#footer {
+  width: 100%;
+  background-color: grey;
+  height: 250px;
 }

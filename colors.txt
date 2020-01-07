@@ -1,0 +1,11 @@
+red #BB1333
+navy #383651
+nav menu blue #233D6E
+nav menu gray #707486
+copyright-line gray #4C5962
+black #14131C
+track icon colors:
+ds #66F2FF
+web #373459
+ios #DF173C
+ux #204C8C

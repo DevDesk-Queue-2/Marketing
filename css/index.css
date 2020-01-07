@@ -209,3 +209,26 @@ header nav a:hover {
   display: flex;
   margin: 0 auto;
 }
+#teamBox {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+#teamBox div {
+  width: 25%;
+  border: 1px solid lightblue;
+  padding: 60px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+#teamBox div h3 {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+#teamBox div p {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 30px;
+}

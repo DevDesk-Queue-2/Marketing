@@ -212,7 +212,17 @@ header nav a:hover {
 #teamBox {
   display: flex;
   flex-flow: row wrap;
-  width: 80%;
+  width: 60%;
+  margin: 0 auto;
+}
+#teamBox #top {
+  display: flex;
+}
+#teamBox #bottom {
+  display: flex;
+  margin: 0 auto;
+}
+#teamBox #bottom div {
   margin: 0 auto;
 }
 #teamBox div {
@@ -225,10 +235,19 @@ header nav a:hover {
 #teamBox div h3 {
   display: flex;
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+}
+#teamBox div h4 {
+  padding: 12%;
 }
 #teamBox div p {
   display: flex;
   margin: 0 auto;
   padding-top: 30px;
+  padding-bottom: 30%;
+}
+#teamBox div img {
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
 }

@@ -1,25 +1,3 @@
-// header{
-//     height:200px;
-//     width: 100%;
-//     margin: .25%;
-//     padding: 15px;
-//     // nav {
-//     //     display:flex;
-//     //     justify-content: space-evenly;
-//     //     background-color: lightblue;
-//     //     a{
-//     //         display: flex;
-//     //         font-size: 1.4rem;
-//     //         text-decoration: none;
-//     //         color: #BB1333;
-//     //     }
-//     //     a:hover {
-//     //         cursor: pointer;
-//     //         color: #383651;
-//     //         opacity: 40%;
-//     //     }
-//     // }
-// }
 #topSec{
     display: flex;
     justify-content: center;
@@ -33,6 +11,7 @@
     flex-flow: column wrap;
     max-width: 100%;
     justify-content: center;
+    color: @maintext;
     h2 {
         margin: 0 auto;
         font-size: 2rem;
@@ -52,6 +31,7 @@
 }
 #whyText{
     width: 100%;
+    color: @maintext;
     display: flex;
     h2{
         margin: 0 auto;
@@ -64,64 +44,14 @@
     width: 90%;
     margin: 0 auto;
     padding-bottom: 5%;
-    .fast{
-        width: 25%;
-        margin:0 auto;
-        h3{
-            display: flex;
-            margin: 0 auto;
-            justify-content: center;
-            font-size: 1.5rem;
-            padding: 2%;
-        }
-        img {
-            margin-left: 37%;
-            padding:4%;
-        }
-        p{
-            width: 75%;
-            margin: 0 auto;
-            padding: 3%;
-        }
+    color: @maintext;
+    .sign{
+        .homebox();
     }
-    .easy{
-        width:25%;
-        margin:0 auto;
-        h3{
-            display: flex;
-            justify-content: center;
-            padding:2%;
-            font-size: 1.5rem;
-        }
-        img{
-            display: flex;
-            margin: 0 auto;
-            padding: 4%;
-        }
-        p{
-            width: 75%;
-            margin: 0 auto;
-            padding: 3%;
-        }
+    .submit{
+        .homebox();
     }
-    .right{
-        width:25%;
-        margin:0 auto;
-        h3{
-            display: flex;
-            justify-content: center;
-            padding:2%;
-            font-size: 1.5rem;
-        }
-        img{
-            display: flex;
-            margin: 0 auto;
-            padding: 4%;
-        }
-        p{
-            width: 75%;
-            margin: 0 auto;
-            padding: 3%;
-        }
+    .done{
+        .homebox();
     }
 }

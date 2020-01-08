@@ -1,14 +1,13 @@
 nav {
     display:flex;
-    justify-content: space-evenly;
-
+    justify-content: space-around;
     height: 50px;
     padding:10px;
     a{
         display: flex;
         font-size: 1.4rem;
         text-decoration: none;
-        color: #BB1333;
+        color: @red;
     }
     a:hover {
         cursor: pointer;
@@ -17,17 +16,17 @@ nav {
     }
     button{
         border-radius: 5px;
-        background-color: #BB1333;
+        background-color: @red;
         padding: 10px;
         padding-bottom: 25px;
         color: white;
-        border: 1px solid #BB1333;
+        border: 1px solid @red;
     }
     button:hover{
         cursor: pointer;
         background-color: white;
-        color: #BB1333;
-        border: 1px solid #BB1333;
+        color: @red;
+        border: 1px solid @red;
     }
 }
 header{
@@ -35,6 +34,7 @@ header{
         padding-bottom: 1%;
         display: flex;
         margin:0 auto;
+        padding-right: 10px;
     }
 }
 

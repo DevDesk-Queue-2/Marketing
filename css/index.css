@@ -15,6 +15,11 @@
   width: 90%;
   height: 500px;
 }
+@media (max-width: 800px) {
+  #topSec img {
+    height: 200px;
+  }
+}
 #middleTop {
   display: flex;
   flex-flow: column wrap;
@@ -28,15 +33,30 @@
   padding-top: 3%;
   padding-bottom: 3%;
 }
+@media (max-width: 800px) {
+  #middleTop h2 {
+    font-size: 2rem;
+  }
+}
 #middleTop p {
   width: 60%;
   margin: 0 auto;
   padding-bottom: 3%;
 }
+@media (max-width: 800px) {
+  #middleTop p {
+    width: 80%;
+  }
+}
 #middleTop img {
   width: 90%;
   margin: 0 auto;
   height: 400px;
+}
+@media (max-width: 800px) {
+  #middleTop img {
+    height: 200px;
+  }
 }
 #whyText {
   width: 100%;
@@ -46,6 +66,7 @@
 #whyText h2 {
   margin: 0 auto;
   padding: 4%;
+  color: #BB1333;
 }
 #why {
   display: flex;
@@ -230,8 +251,9 @@ header img {
   display: flex;
   margin: 0 auto;
   padding-bottom: 30px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: center;
+  color: #BB1333;
 }
 #teamBox div h4 {
   display: flex;
@@ -254,20 +276,12 @@ header img {
 }
 #footer {
   width: 100%;
-  background-color: lightgrey;
   height: 200px;
 }
-#footer .footernav {
+#footer p {
+  font-size: 0.9rem;
   display: flex;
-  width: 50%;
-  margin: 0 auto;
-  border: 1px solid blue;
-}
-#footer .footernav a {
-  display: flex;
-  border: 1px solid blue;
-  flex-direction: column;
-  padding: 20px;
+  justify-content: center;
 }
 .border {
   border: 1px solid blue;

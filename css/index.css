@@ -7,7 +7,6 @@
   font-weight: normal;
   font-style: normal;
 }
-@import : mixins.less;
 * {
   box-sizing: border-box;
   padding: 0;
@@ -145,6 +144,7 @@ header nav a:hover {
 }
 #logonav {
   width: 100%;
+  margin: 0.25%;
   padding: 10px;
 }
 #logonav nav {

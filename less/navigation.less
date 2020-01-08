@@ -1,21 +1,40 @@
-#logonav{
+nav {
+    display:flex;
+    justify-content: space-evenly;
 
-    width: 100%;
-    margin: .25%;
-    padding: 10px;
-    nav {
-        display:flex;
-        justify-content: space-evenly;
-        a{
-            display: flex;
-            font-size: 1.4rem;
-            text-decoration: none;
-            color: #BB1333;
-        }
-        a:hover {
-            cursor: pointer;
-            color: #383651;
-            opacity: 40%;
-        }
+    height: 50px;
+    padding:10px;
+    a{
+        display: flex;
+        font-size: 1.4rem;
+        text-decoration: none;
+        color: #BB1333;
+    }
+    a:hover {
+        cursor: pointer;
+        color: #383651;
+        opacity: 40%;
+    }
+    button{
+        border-radius: 5px;
+        background-color: #BB1333;
+        padding: 10px;
+        padding-bottom: 25px;
+        color: white;
+        border: 1px solid #BB1333;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: white;
+        color: #BB1333;
+        border: 1px solid #BB1333;
     }
 }
+header{
+    img{
+        padding-bottom: 1%;
+        display: flex;
+        margin:0 auto;
+    }
+}
+

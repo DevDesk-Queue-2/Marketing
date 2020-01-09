@@ -12,6 +12,9 @@
     @media @tablet{
         width:30%;
     }
+    @media @mobile {
+        width:70%;
+    }
     h3{
         display: flex;
         margin: 0 auto;
@@ -22,6 +25,9 @@
             padding:25%;
             font-size: 1.5rem;
         }
+        @media @mobile {
+            padding-top:10%;
+        }
     }
     img {
         margin-left: 37%;
@@ -29,13 +35,21 @@
         @media @tablet{
             margin-left:25%;
         }
+        @media @mobile {
+            margin-left: 30%;
+        }
     }
     p{
         width: 75%;
         margin: 0 auto;
         padding: 3%;
+        text-align: center;
         @media @tablet {
             padding-top: 50px;
         }
     }
+}
+.flex{
+    display: flex;
+    margin: 0 auto;
 }

@@ -50,65 +50,65 @@
 }
 .teamDiv{
     width: 25%;
-        display: flex;
-        flex-flow: column nowrap;
-        @media @tablet {
-            width: 50%;
-            padding:20px;
+    display: flex;
+    flex-flow: column nowrap;
+    @media @tablet {
+        width: 50%;
+        padding:20px;
+    }
+    @media @mobile {
+        width: 100%;
+        border-bottom:2px dotted @maintext;
+    }
+    h3{
+        .flex();
+        padding-bottom: 30px;
+        font-size: 1.4rem;
+        text-align: center;
+        color: @red;
+        .headBorder(@red);
+        @media @mobile {
+            padding-bottom: 0px;
+        }
+    }
+    h4{
+        .flex();
+        padding-top: 10px;
+        padding-bottom: 10px;
+        @media @mobile {
+            padding-bottom: 10px;
+        }
+    }
+    p{
+        .flex();
+        padding-top: 30px;
+        padding-bottom: 30%;
+        @media @tablet{
+            text-align: center;
         }
         @media @mobile {
-            width: 100%;
-            border-bottom:2px dotted @maintext;
-        }
-        h3{
-            .flex();
-            padding-bottom: 30px;
-            font-size: 1.4rem;
-            text-align: center;
-            color: @red;
-            .headBorder(2px dotted @red);
-            @media @mobile {
-                padding-bottom: 0px;
-            }
-        }
-        h4{
-            .flex();
             padding-top: 10px;
-            padding-bottom: 10px;
-            @media @mobile {
-                padding-bottom: 10px;
-            }
+            padding-bottom: 20px;
         }
-        p{
-            .flex();
-            padding-top: 30px;
-            padding-bottom: 30%;
-            @media @tablet{
-                text-align: center;
-            }
-            @media @mobile {
-                padding-top: 10px;
-                padding-bottom: 20px;
-            }
-        }
-        .imgs{
-            width: 100%;
-            .flex();
-        }
-        img{
-            // .imgCircle();
-            .flex();
-            border-radius: 50%;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            max-width:100%;
-        }
-        a{
-            margin: 0 auto;
-        }
+    }
+    .imgs{
+        width: 100%;
+        .flex();
+    }
+    img{
+        // .imgCircle();
+        .flex();
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width:100%;
+    }
+    a{
+        margin: 0 auto;
+    }
 }
-.headBorder(@size, @type, @color){
-    border: @size @type @color;
+.headBorder(@color){
+    border:2px dotted @color;
     padding-top: 10%;
     padding-left: 10%;
     padding-right: 10%;

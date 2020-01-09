@@ -410,6 +410,7 @@ nav {
 }
 nav a {
   display: flex;
+  margin-top: 10px;
   font-size: 1.4rem;
   text-decoration: none;
   color: #BB1333;
@@ -566,6 +567,7 @@ header img {
 #teamBox #bottom {
   display: flex;
   margin: 0 auto;
+  margin-top: 50px;
 }
 #teamBox #bottom div {
   margin: 0 auto;

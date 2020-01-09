@@ -68,6 +68,9 @@
         display: flex;
         margin:0 auto;
         margin-bottom: 2%;
+        @media @mobile {
+            padding-bottom: 20px;
+        }
     }
     p{
         display: flex;
@@ -100,6 +103,9 @@
         @media @tablet {
             padding-bottom:70px;
         }
+        @media @mobile {
+            flex-flow:column nowrap;
+        }
     }
     div{
         width: 25%;
@@ -110,6 +116,10 @@
             width: 50%;
             padding:20px;
         }
+        @media @mobile {
+            width: 100%;
+            border-bottom:2px dotted @maintext;
+        }
         h3{
             display: flex;
             margin: 0 auto;
@@ -117,12 +127,18 @@
             font-size: 1.4rem;
             text-align: center;
             color: @red;
+            @media @mobile {
+                padding-bottom: 0px;
+            }
         }
         h4{
             display: flex;
             margin: 0 auto;
             padding-top: 10px;
             padding-bottom: 10px;
+            @media @mobile {
+                padding-bottom: 10px;
+            }
         }
         p{
             display: flex;
@@ -131,6 +147,10 @@
             padding-bottom: 30%;
             @media @tablet{
                 text-align: center;
+            }
+            @media @mobile {
+                padding-top: 10px;
+                padding-bottom: 20px;
             }
         }
         img{

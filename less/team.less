@@ -8,17 +8,27 @@
         margin-top: -3.75%;
         margin-bottom: 5%;
         font-size: 3rem;
+        @media @tablet {
+            font-size: 2rem;
+        }
     }
     img{
         width: 90%;
         display: flex;
         margin: 0 auto;
+        @media @tablet {
+            width:90%;
+        }
     }
 }
 #whyWe{
     display: flex;
     margin: 0 auto;
     flex-flow: column nowrap;
+    @media @tablet {
+        width: 90%;
+        .border();
+    }
     h2{
         display: flex;
         margin: 0 auto;

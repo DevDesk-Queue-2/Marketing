@@ -66,6 +66,7 @@
             font-size: 1.4rem;
             text-align: center;
             color: @red;
+            .headBorder(2px dotted @red);
             @media @mobile {
                 padding-bottom: 0px;
             }
@@ -105,4 +106,10 @@
         a{
             margin: 0 auto;
         }
+}
+.headBorder(@size, @type, @color){
+    border: @size @type @color;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }

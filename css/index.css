@@ -82,9 +82,9 @@
 }
 #why {
   display: flex;
+  margin: 0 auto;
   flex-flow: row wrap;
   width: 90%;
-  margin: 0 auto;
   padding-bottom: 5%;
   color: #2A2A2A;
 }
@@ -298,9 +298,9 @@ nav button:hover {
   transition: all 0.5s ease;
 }
 header img {
-  padding-bottom: 1%;
   display: flex;
   margin: 0 auto;
+  padding-bottom: 1%;
   padding-right: 10px;
 }
 #topSecTeam {
@@ -398,11 +398,12 @@ header img {
 }
 #teamBox {
   display: flex;
+  margin: 0 auto;
   flex-flow: row wrap;
   width: 60%;
-  margin: 0 auto;
   color: #2A2A2A;
   text-align: center;
+  margin-bottom: 5%;
 }
 @media (max-width: 800px) {
   #teamBox {
@@ -495,9 +496,9 @@ header img {
   }
 }
 #teamBox div img {
-  border-radius: 50%;
-  margin: 0 auto;
   display: flex;
+  margin: 0 auto;
+  border-radius: 50%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -577,4 +578,8 @@ header img {
   .homebox p {
     padding-top: 50px;
   }
+}
+.flex {
+  display: flex;
+  margin: 0 auto;
 }

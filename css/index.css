@@ -508,6 +508,7 @@ header img {
 #footer {
   width: 100%;
   height: 200px;
+  margin-top: 8%;
 }
 #footer p {
   font-size: 0.9rem;

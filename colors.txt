@@ -1,4 +1,4 @@
-red #BB1333
+red @red
 navy #383651
 nav menu blue #233D6E
 nav menu gray #707486

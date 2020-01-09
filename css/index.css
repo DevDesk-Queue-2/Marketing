@@ -95,6 +95,10 @@
   font-size: 1.4rem;
   text-align: center;
   color: #BB1333;
+  border: 2px dotted #BB1333;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 @media (max-width: 500px) {
   .teamDiv h3 {
@@ -606,6 +610,10 @@ header img {
   font-size: 1.4rem;
   text-align: center;
   color: #BB1333;
+  border: 2px dotted #BB1333;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 @media (max-width: 500px) {
   #teamBox .mick h3 {
@@ -680,6 +688,10 @@ header img {
   font-size: 1.4rem;
   text-align: center;
   color: #BB1333;
+  border: 2px dotted #BB1333;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 @media (max-width: 500px) {
   #teamBox .seb h3 {
@@ -754,6 +766,10 @@ header img {
   font-size: 1.4rem;
   text-align: center;
   color: #BB1333;
+  border: 2px dotted #BB1333;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 @media (max-width: 500px) {
   #teamBox .tyler h3 {
@@ -828,6 +844,10 @@ header img {
   font-size: 1.4rem;
   text-align: center;
   color: #BB1333;
+  border: 2px dotted #BB1333;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 @media (max-width: 500px) {
   #teamBox .mark h3 {
@@ -902,6 +922,10 @@ header img {
   font-size: 1.4rem;
   text-align: center;
   color: #BB1333;
+  border: 2px dotted #BB1333;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 @media (max-width: 500px) {
   #teamBox .carl h3 {
@@ -976,6 +1000,10 @@ header img {
   font-size: 1.4rem;
   text-align: center;
   color: #BB1333;
+  border: 2px dotted #BB1333;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 @media (max-width: 500px) {
   #teamBox .shaq h3 {

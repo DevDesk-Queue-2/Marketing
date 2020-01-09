@@ -412,6 +412,12 @@ header img {
 }
 #teamBox #top {
   display: flex;
+  margin: 0 auto;
+  width: 100%;
+}
+#teamBox #top div {
+  display: flex;
+  margin: 0 auto;
 }
 @media (max-width: 800px) {
   #teamBox #top {

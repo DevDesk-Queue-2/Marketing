@@ -105,7 +105,6 @@
     }
     div{
         width: 25%;
-        padding:60px;
         display: flex;
         flex-flow: column nowrap;
         @media @tablet {
@@ -146,12 +145,17 @@
                 padding-bottom: 20px;
             }
         }
+        .imgs{
+            width: 100%;
+            .flex();
+        }
         img{
             // .imgCircle();
             .flex();
             border-radius: 50%;
             margin-top: 20px;
             margin-bottom: 20px;
+            max-width:100%;
         }
         a{
             margin: 0 auto;

@@ -71,6 +71,80 @@
   display: flex;
   margin: 0 auto;
 }
+.teamDiv {
+  width: 25%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (max-width: 800px) {
+  .teamDiv {
+    width: 50%;
+    padding: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .teamDiv {
+    width: 100%;
+    border-bottom: 2px dotted #2A2A2A;
+  }
+}
+.teamDiv h3 {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #BB1333;
+}
+@media (max-width: 500px) {
+  .teamDiv h3 {
+    padding-bottom: 0px;
+  }
+}
+.teamDiv h4 {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (max-width: 500px) {
+  .teamDiv h4 {
+    padding-bottom: 10px;
+  }
+}
+.teamDiv p {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30%;
+}
+@media (max-width: 800px) {
+  .teamDiv p {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .teamDiv p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+.teamDiv .imgs {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+.teamDiv img {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+.teamDiv a {
+  margin: 0 auto;
+}
 #topSec {
   display: flex;
   justify-content: center;
@@ -506,24 +580,24 @@ header img {
     flex-flow: column nowrap;
   }
 }
-#teamBox div {
+#teamBox .mick {
   width: 25%;
   display: flex;
   flex-flow: column nowrap;
 }
 @media (max-width: 800px) {
-  #teamBox div {
+  #teamBox .mick {
     width: 50%;
     padding: 20px;
   }
 }
 @media (max-width: 500px) {
-  #teamBox div {
+  #teamBox .mick {
     width: 100%;
     border-bottom: 2px dotted #2A2A2A;
   }
 }
-#teamBox div h3 {
+#teamBox .mick h3 {
   display: flex;
   margin: 0 auto;
   padding-bottom: 30px;
@@ -532,44 +606,44 @@ header img {
   color: #BB1333;
 }
 @media (max-width: 500px) {
-  #teamBox div h3 {
+  #teamBox .mick h3 {
     padding-bottom: 0px;
   }
 }
-#teamBox div h4 {
+#teamBox .mick h4 {
   display: flex;
   margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 @media (max-width: 500px) {
-  #teamBox div h4 {
+  #teamBox .mick h4 {
     padding-bottom: 10px;
   }
 }
-#teamBox div p {
+#teamBox .mick p {
   display: flex;
   margin: 0 auto;
   padding-top: 30px;
   padding-bottom: 30%;
 }
 @media (max-width: 800px) {
-  #teamBox div p {
+  #teamBox .mick p {
     text-align: center;
   }
 }
 @media (max-width: 500px) {
-  #teamBox div p {
+  #teamBox .mick p {
     padding-top: 10px;
     padding-bottom: 20px;
   }
 }
-#teamBox div .imgs {
+#teamBox .mick .imgs {
   width: 100%;
   display: flex;
   margin: 0 auto;
 }
-#teamBox div img {
+#teamBox .mick img {
   display: flex;
   margin: 0 auto;
   border-radius: 50%;
@@ -577,7 +651,377 @@ header img {
   margin-bottom: 20px;
   max-width: 100%;
 }
-#teamBox div a {
+#teamBox .mick a {
+  margin: 0 auto;
+}
+#teamBox .seb {
+  width: 25%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (max-width: 800px) {
+  #teamBox .seb {
+    width: 50%;
+    padding: 20px;
+  }
+}
+@media (max-width: 500px) {
+  #teamBox .seb {
+    width: 100%;
+    border-bottom: 2px dotted #2A2A2A;
+  }
+}
+#teamBox .seb h3 {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #BB1333;
+}
+@media (max-width: 500px) {
+  #teamBox .seb h3 {
+    padding-bottom: 0px;
+  }
+}
+#teamBox .seb h4 {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (max-width: 500px) {
+  #teamBox .seb h4 {
+    padding-bottom: 10px;
+  }
+}
+#teamBox .seb p {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30%;
+}
+@media (max-width: 800px) {
+  #teamBox .seb p {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  #teamBox .seb p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+#teamBox .seb .imgs {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+#teamBox .seb img {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+#teamBox .seb a {
+  margin: 0 auto;
+}
+#teamBox .tyler {
+  width: 25%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (max-width: 800px) {
+  #teamBox .tyler {
+    width: 50%;
+    padding: 20px;
+  }
+}
+@media (max-width: 500px) {
+  #teamBox .tyler {
+    width: 100%;
+    border-bottom: 2px dotted #2A2A2A;
+  }
+}
+#teamBox .tyler h3 {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #BB1333;
+}
+@media (max-width: 500px) {
+  #teamBox .tyler h3 {
+    padding-bottom: 0px;
+  }
+}
+#teamBox .tyler h4 {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (max-width: 500px) {
+  #teamBox .tyler h4 {
+    padding-bottom: 10px;
+  }
+}
+#teamBox .tyler p {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30%;
+}
+@media (max-width: 800px) {
+  #teamBox .tyler p {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  #teamBox .tyler p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+#teamBox .tyler .imgs {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+#teamBox .tyler img {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+#teamBox .tyler a {
+  margin: 0 auto;
+}
+#teamBox .mark {
+  width: 25%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (max-width: 800px) {
+  #teamBox .mark {
+    width: 50%;
+    padding: 20px;
+  }
+}
+@media (max-width: 500px) {
+  #teamBox .mark {
+    width: 100%;
+    border-bottom: 2px dotted #2A2A2A;
+  }
+}
+#teamBox .mark h3 {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #BB1333;
+}
+@media (max-width: 500px) {
+  #teamBox .mark h3 {
+    padding-bottom: 0px;
+  }
+}
+#teamBox .mark h4 {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (max-width: 500px) {
+  #teamBox .mark h4 {
+    padding-bottom: 10px;
+  }
+}
+#teamBox .mark p {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30%;
+}
+@media (max-width: 800px) {
+  #teamBox .mark p {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  #teamBox .mark p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+#teamBox .mark .imgs {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+#teamBox .mark img {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+#teamBox .mark a {
+  margin: 0 auto;
+}
+#teamBox .carl {
+  width: 25%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (max-width: 800px) {
+  #teamBox .carl {
+    width: 50%;
+    padding: 20px;
+  }
+}
+@media (max-width: 500px) {
+  #teamBox .carl {
+    width: 100%;
+    border-bottom: 2px dotted #2A2A2A;
+  }
+}
+#teamBox .carl h3 {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #BB1333;
+}
+@media (max-width: 500px) {
+  #teamBox .carl h3 {
+    padding-bottom: 0px;
+  }
+}
+#teamBox .carl h4 {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (max-width: 500px) {
+  #teamBox .carl h4 {
+    padding-bottom: 10px;
+  }
+}
+#teamBox .carl p {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30%;
+}
+@media (max-width: 800px) {
+  #teamBox .carl p {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  #teamBox .carl p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+#teamBox .carl .imgs {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+#teamBox .carl img {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+#teamBox .carl a {
+  margin: 0 auto;
+}
+#teamBox .shaq {
+  width: 25%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (max-width: 800px) {
+  #teamBox .shaq {
+    width: 50%;
+    padding: 20px;
+  }
+}
+@media (max-width: 500px) {
+  #teamBox .shaq {
+    width: 100%;
+    border-bottom: 2px dotted #2A2A2A;
+  }
+}
+#teamBox .shaq h3 {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #BB1333;
+}
+@media (max-width: 500px) {
+  #teamBox .shaq h3 {
+    padding-bottom: 0px;
+  }
+}
+#teamBox .shaq h4 {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (max-width: 500px) {
+  #teamBox .shaq h4 {
+    padding-bottom: 10px;
+  }
+}
+#teamBox .shaq p {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30%;
+}
+@media (max-width: 800px) {
+  #teamBox .shaq p {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  #teamBox .shaq p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+#teamBox .shaq .imgs {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+#teamBox .shaq img {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+#teamBox .shaq a {
   margin: 0 auto;
 }
 #footer {

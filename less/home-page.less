@@ -19,7 +19,7 @@
         margin: 0 auto;
         font-size: 2rem;
         padding-top: 3%;
-        padding-bottom: 3%;
+        padding-bottom: 2%;
         @media @tablet {
             font-size: 2rem;
             padding-top: 50px;
@@ -30,6 +30,7 @@
         width: 60%;
         margin: 0 auto;
         padding-bottom: 3%;
+        text-align: center;
         @media @tablet {
             width: 80%;
             padding-top: 10px;
@@ -53,10 +54,11 @@
     h2{
         margin: 0 auto;
         padding: 4%;
-        color: @red;
+        color: @maintext;
         @media @tablet {
             font-size: 2rem;
             padding-top: 50px;
+            border-bottom: 2px dotted @red;
         }
     }
 }
@@ -67,6 +69,9 @@
     margin: 0 auto;
     padding-bottom: 5%;
     color: @maintext;
+    @media @tablet {
+        padding-bottom: 70px;
+    }
     .sign{
         .homebox();
     }

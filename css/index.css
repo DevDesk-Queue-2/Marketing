@@ -31,7 +31,7 @@
   margin: 0 auto;
   font-size: 2rem;
   padding-top: 3%;
-  padding-bottom: 3%;
+  padding-bottom: 2%;
 }
 @media (max-width: 800px) {
   #middleTop h2 {
@@ -44,6 +44,7 @@
   width: 60%;
   margin: 0 auto;
   padding-bottom: 3%;
+  text-align: center;
 }
 @media (max-width: 800px) {
   #middleTop p {
@@ -70,12 +71,13 @@
 #whyText h2 {
   margin: 0 auto;
   padding: 4%;
-  color: #BB1333;
+  color: #2A2A2A;
 }
 @media (max-width: 800px) {
   #whyText h2 {
     font-size: 2rem;
     padding-top: 50px;
+    border-bottom: 2px dotted #BB1333;
   }
 }
 #why {
@@ -86,6 +88,11 @@
   padding-bottom: 5%;
   color: #2A2A2A;
 }
+@media (max-width: 800px) {
+  #why {
+    padding-bottom: 70px;
+  }
+}
 #why .sign {
   width: 25%;
   margin: 0 auto;
@@ -93,6 +100,11 @@
 @media (max-width: 800px) {
   #why .sign {
     width: 30%;
+  }
+}
+@media (max-width: 500px) {
+  #why .sign {
+    width: 70%;
   }
 }
 #why .sign h3 {
@@ -108,6 +120,11 @@
     font-size: 1.5rem;
   }
 }
+@media (max-width: 500px) {
+  #why .sign h3 {
+    padding-top: 10%;
+  }
+}
 #why .sign img {
   margin-left: 37%;
   padding: 4%;
@@ -117,10 +134,16 @@
     margin-left: 25%;
   }
 }
+@media (max-width: 500px) {
+  #why .sign img {
+    margin-left: 30%;
+  }
+}
 #why .sign p {
   width: 75%;
   margin: 0 auto;
   padding: 3%;
+  text-align: center;
 }
 @media (max-width: 800px) {
   #why .sign p {
@@ -136,6 +159,11 @@
     width: 30%;
   }
 }
+@media (max-width: 500px) {
+  .submit {
+    width: 70%;
+  }
+}
 .submit h3 {
   display: flex;
   margin: 0 auto;
@@ -149,6 +177,11 @@
     font-size: 1.5rem;
   }
 }
+@media (max-width: 500px) {
+  .submit h3 {
+    padding-top: 10%;
+  }
+}
 .submit img {
   margin-left: 37%;
   padding: 4%;
@@ -158,10 +191,16 @@
     margin-left: 25%;
   }
 }
+@media (max-width: 500px) {
+  .submit img {
+    margin-left: 30%;
+  }
+}
 .submit p {
   width: 75%;
   margin: 0 auto;
   padding: 3%;
+  text-align: center;
 }
 @media (max-width: 800px) {
   .submit p {
@@ -177,6 +216,11 @@
     width: 30%;
   }
 }
+@media (max-width: 500px) {
+  .done {
+    width: 70%;
+  }
+}
 .done h3 {
   display: flex;
   margin: 0 auto;
@@ -190,6 +234,11 @@
     font-size: 1.5rem;
   }
 }
+@media (max-width: 500px) {
+  .done h3 {
+    padding-top: 10%;
+  }
+}
 .done img {
   margin-left: 37%;
   padding: 4%;
@@ -199,10 +248,16 @@
     margin-left: 25%;
   }
 }
+@media (max-width: 500px) {
+  .done img {
+    margin-left: 30%;
+  }
+}
 .done p {
   width: 75%;
   margin: 0 auto;
   padding: 3%;
+  text-align: center;
 }
 @media (max-width: 800px) {
   .done p {
@@ -223,8 +278,9 @@ nav a {
 }
 nav a:hover {
   cursor: pointer;
-  color: #383651;
+  color: #6d6d6d;
   opacity: 40%;
+  transition: all 0.35s ease;
 }
 nav button {
   border-radius: 5px;
@@ -239,6 +295,7 @@ nav button:hover {
   background-color: white;
   color: #BB1333;
   border: 1px solid #BB1333;
+  transition: all 0.5s ease;
 }
 header img {
   padding-bottom: 1%;
@@ -273,15 +330,23 @@ header img {
     width: 90%;
   }
 }
+@media (max-width: 500px) {
+  #topSecTeam img {
+    padding-bottom: 20px;
+  }
+}
 #whyWe {
   display: flex;
   margin: 0 auto;
   flex-flow: column nowrap;
+  padding-bottom: 40px;
 }
 @media (max-width: 800px) {
   #whyWe {
     width: 90%;
-    border: 1px solid blue;
+    padding: 4%;
+    border-bottom: 2px dotted #BB1333;
+    border-top: 2px dotted #BB1333;
   }
 }
 #whyWe h2 {
@@ -290,19 +355,32 @@ header img {
   padding: 2%;
   color: #2A2A2A;
 }
+@media (max-width: 500px) {
+  #whyWe h2 {
+    padding: 40px;
+    padding-top: 10px;
+  }
+}
 #whyWe p {
   display: flex;
   margin: 0 auto;
+  text-align: center;
   width: 60%;
   padding: 2%;
   color: #2A2A2A;
+}
+@media (max-width: 800px) {
+  #whyWe p {
+    width: 90%;
+  }
 }
 #teamText {
   display: flex;
   margin: 0 auto;
   flex-direction: column;
   color: #2A2A2A;
-  padding: 40px;
+  padding: 20px;
+  padding-bottom: 3%;
 }
 #teamText h2 {
   display: flex;
@@ -319,9 +397,21 @@ header img {
   width: 60%;
   margin: 0 auto;
   color: #2A2A2A;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  #teamBox {
+    width: 100%;
+  }
 }
 #teamBox #top {
   display: flex;
+}
+@media (max-width: 800px) {
+  #teamBox #top {
+    width: 100%;
+    flex-flow: row wrap;
+  }
 }
 #teamBox #bottom {
   display: flex;
@@ -330,17 +420,28 @@ header img {
 #teamBox #bottom div {
   margin: 0 auto;
 }
+@media (max-width: 800px) {
+  #teamBox #bottom {
+    padding-bottom: 70px;
+  }
+}
 #teamBox div {
   width: 25%;
   padding: 60px;
   display: flex;
   flex-flow: column nowrap;
 }
+@media (max-width: 800px) {
+  #teamBox div {
+    width: 50%;
+    padding: 20px;
+  }
+}
 #teamBox div h3 {
   display: flex;
   margin: 0 auto;
   padding-bottom: 30px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-align: center;
   color: #BB1333;
 }
@@ -356,12 +457,20 @@ header img {
   padding-top: 30px;
   padding-bottom: 30%;
 }
+@media (max-width: 800px) {
+  #teamBox div p {
+    text-align: center;
+  }
+}
 #teamBox div img {
   border-radius: 50%;
   margin: 0 auto;
   display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+#teamBox div a {
+  margin: 0 auto;
 }
 #footer {
   width: 100%;
@@ -371,6 +480,11 @@ header img {
   font-size: 0.9rem;
   display: flex;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  #footer p {
+    margin-top: 12%;
+  }
 }
 .border {
   border: 1px solid blue;
@@ -382,6 +496,11 @@ header img {
 @media (max-width: 800px) {
   .homebox {
     width: 30%;
+  }
+}
+@media (max-width: 500px) {
+  .homebox {
+    width: 70%;
   }
 }
 .homebox h3 {
@@ -397,6 +516,11 @@ header img {
     font-size: 1.5rem;
   }
 }
+@media (max-width: 500px) {
+  .homebox h3 {
+    padding-top: 10%;
+  }
+}
 .homebox img {
   margin-left: 37%;
   padding: 4%;
@@ -406,10 +530,16 @@ header img {
     margin-left: 25%;
   }
 }
+@media (max-width: 500px) {
+  .homebox img {
+    margin-left: 30%;
+  }
+}
 .homebox p {
   width: 75%;
   margin: 0 auto;
   padding: 3%;
+  text-align: center;
 }
 @media (max-width: 800px) {
   .homebox p {

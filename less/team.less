@@ -81,7 +81,11 @@
         width: 100%;
     }
     #top{
-        display:flex;
+        .flex();
+        width: 100%;
+        div{ 
+            .flex();
+        }
         @media @tablet{
             width: 100%;
             flex-flow: row wrap;
